@@ -1,0 +1,21 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cgb-grid-gallery-1up {
+  border: 0.2rem solid $black;
+}
+
+.wp-block-cgb-grid-gallery-2up {
+  border: 0.2rem solid $black;
+
+  display: flex;
+  flex-direction: row;
+
+  .grid-gallery-item {
+    width: 50%;
+  }
+}

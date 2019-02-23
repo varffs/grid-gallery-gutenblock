@@ -1,0 +1,16 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.editor-items {
+  display: flex;
+  flex-direction: row;
+
+  .grid-gallery-item {
+    width: 50%;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,14 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-grid-gallery-3up {
+  display: flex;
+  flex-direction: row;
+
+  .grid-gallery-item {
+    width: (100% / 3);
+  }
+}
